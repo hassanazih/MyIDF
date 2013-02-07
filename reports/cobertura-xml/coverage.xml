@@ -1,0 +1,872 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.6538461538461539" branch-rate="0.7068965517241379" lines-covered="102" lines-valid="156" branches-covered="41" branches-valid="58" complexity="2.075" version="1.9.4.1" timestamp="1350240922284">
+	<sources>
+		<source>src</source>
+	</sources>
+	<packages>
+		<package name="org.isima.inject" line-rate="0.6173913043478261" branch-rate="0.7" complexity="2.48">
+			<classes>
+				<class name="org.isima.inject.Binder" filename="org/isima/inject/Binder.java" line-rate="0.8043478260869565" branch-rate="0.8181818181818182" complexity="2.8">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;Lorg/isima/inject/Injector;)V" line-rate="0.8571428571428571" branch-rate="0.5">
+							<lines>
+								<line number="21" hits="11" branch="false"/>
+								<line number="24" hits="11" branch="false"/>
+								<line number="25" hits="11" branch="false"/>
+								<line number="26" hits="11" branch="false"/>
+								<line number="28" hits="11" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="29" hits="0" branch="false"/>
+								<line number="32" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="annotatedWith" signature="(Ljava/lang/Class;)Lorg/isima/inject/Binder;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="55" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="56" hits="5" branch="false"/>
+								<line number="57" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="getBinding" signature="()Lorg/isima/inject/bind/AbstractBinding;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="111" hits="23" branch="false"/>
+							</lines>
+						</method>
+						<method name="getKeyClass" signature="()Ljava/lang/Class;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="116" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="injectField" signature="(Ljava/lang/reflect/Field;Ljava/lang/Object;)V" line-rate="0.5384615384615384" branch-rate="0.5">
+							<lines>
+								<line number="90" hits="9" branch="false"/>
+								<line number="94" hits="9" branch="false"/>
+								<line number="95" hits="9" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="96" hits="9" branch="false"/>
+								<line number="98" hits="9" branch="false"/>
+								<line number="99" hits="0" branch="false"/>
+								<line number="100" hits="0" branch="false"/>
+								<line number="101" hits="0" branch="false"/>
+								<line number="102" hits="0" branch="false"/>
+								<line number="103" hits="0" branch="false"/>
+								<line number="105" hits="0" branch="false"/>
+								<line number="106" hits="9" branch="false"/>
+								<line number="107" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="injectMembers" signature="(Ljava/lang/Class;Ljava/lang/Object;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="78" hits="9" branch="false"/>
+								<line number="80" hits="22" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="82" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="83" hits="9" branch="false"/>
+								<line number="86" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="isAbleToInstantiate" signature="(Ljava/lang/Class;)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="62" hits="24" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="63" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="newInstance" signature="()Ljava/lang/Object;" line-rate="1.0" branch-rate="0.8333333333333334">
+							<lines>
+								<line number="69" hits="11" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="70" hits="10" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="71" hits="9" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="72" hits="9" branch="false"/>
+								<line number="73" hits="9" branch="false"/>
+								<line number="74" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="to" signature="(Ljava/lang/Class;)Lorg/isima/inject/Binder;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="36" hits="8" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="37" hits="4" branch="false"/>
+								<line number="39" hits="4" branch="false"/>
+								<line number="41" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="to" signature="(Ljava/lang/Object;)Lorg/isima/inject/Binder;" line-rate="0.75" branch-rate="0.5">
+							<lines>
+								<line number="45" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="46" hits="1" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+								<line number="50" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="11" branch="false"/>
+						<line number="24" hits="11" branch="false"/>
+						<line number="25" hits="11" branch="false"/>
+						<line number="26" hits="11" branch="false"/>
+						<line number="28" hits="11" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="29" hits="0" branch="false"/>
+						<line number="32" hits="11" branch="false"/>
+						<line number="36" hits="8" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="37" hits="4" branch="false"/>
+						<line number="39" hits="4" branch="false"/>
+						<line number="41" hits="8" branch="false"/>
+						<line number="45" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="46" hits="1" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="50" hits="1" branch="false"/>
+						<line number="55" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="56" hits="5" branch="false"/>
+						<line number="57" hits="6" branch="false"/>
+						<line number="62" hits="24" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="63" hits="3" branch="false"/>
+						<line number="69" hits="11" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="70" hits="10" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="71" hits="9" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="72" hits="9" branch="false"/>
+						<line number="73" hits="9" branch="false"/>
+						<line number="74" hits="9" branch="false"/>
+						<line number="78" hits="9" branch="false"/>
+						<line number="80" hits="22" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="82" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="83" hits="9" branch="false"/>
+						<line number="86" hits="9" branch="false"/>
+						<line number="90" hits="9" branch="false"/>
+						<line number="94" hits="9" branch="false"/>
+						<line number="95" hits="9" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="96" hits="9" branch="false"/>
+						<line number="98" hits="9" branch="false"/>
+						<line number="99" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="false"/>
+						<line number="101" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+						<line number="103" hits="0" branch="false"/>
+						<line number="105" hits="0" branch="false"/>
+						<line number="106" hits="9" branch="false"/>
+						<line number="107" hits="9" branch="false"/>
+						<line number="111" hits="23" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.isima.inject.Injector" filename="org/isima/inject/Injector.java" line-rate="0.4927536231884058" branch-rate="0.6071428571428571" complexity="2.2666666666666666">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="20" hits="8" branch="false"/>
+								<line number="21" hits="8" branch="false"/>
+								<line number="22" hits="8" branch="false"/>
+								<line number="23" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/util/List;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/util/List;Lorg/isima/inject/Injector;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="38" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lorg/isima/inject/Injector;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="26" hits="0" branch="false"/>
+								<line number="27" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="bind" signature="(Ljava/lang/Class;)Lorg/isima/inject/Binder;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="75" hits="11" branch="false"/>
+								<line number="76" hits="11" branch="false"/>
+								<line number="77" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="createChildInjector" signature="()Lorg/isima/inject/Injector;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="57" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getBinders" signature="()Ljava/util/List;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="45" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getParent" signature="()Lorg/isima/inject/Injector;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="49" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="inject" signature="(Ljava/lang/Object;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="101" hits="3" branch="false"/>
+								<line number="103" hits="9" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="105" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="106" hits="3" branch="false"/>
+								<line number="109" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="injectField" signature="(Ljava/lang/reflect/Field;Ljava/lang/Object;)V" line-rate="0.5714285714285714" branch-rate="0.5">
+							<lines>
+								<line number="114" hits="3" branch="false"/>
+								<line number="118" hits="3" branch="false"/>
+								<line number="119" hits="3" branch="false"/>
+								<line number="120" hits="3" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="121" hits="3" branch="false"/>
+								<line number="123" hits="3" branch="false"/>
+								<line number="124" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="126" hits="0" branch="false"/>
+								<line number="127" hits="0" branch="false"/>
+								<line number="128" hits="0" branch="false"/>
+								<line number="130" hits="0" branch="false"/>
+								<line number="131" hits="3" branch="false"/>
+								<line number="132" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="newInstance" signature="(Ljava/lang/Class;)Ljava/lang/Object;" line-rate="0.6666666666666666" branch-rate="0.5">
+							<lines>
+								<line number="62" hits="6" branch="false"/>
+								<line number="63" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="65" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="66" hits="6" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="newInstance" signature="([Ljava/lang/annotation/Annotation;Ljava/lang/Class;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="83" hits="12" branch="false"/>
+								<line number="84" hits="12" branch="false"/>
+								<line number="85" hits="12" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="87" hits="18" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="91" hits="5" branch="false"/>
+								<line number="93" hits="7" branch="false"/>
+								<line number="94" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="setParent" signature="()Lorg/isima/inject/Injector;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="viewAllBinders" signature="()V" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="144" hits="0" branch="false"/>
+								<line number="145" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="147" hits="0" branch="false"/>
+								<line number="148" hits="0" branch="false"/>
+								<line number="149" hits="0" branch="false"/>
+								<line number="150" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="151" hits="0" branch="false"/>
+								<line number="152" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="154" hits="0" branch="false"/>
+								<line number="155" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="157" hits="0" branch="false"/>
+								<line number="163" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="viewAnnotations" signature="([Ljava/lang/annotation/Annotation;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="136" hits="35" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="138" hits="23" branch="false"/>
+								<line number="140" hits="12" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="8" branch="false"/>
+						<line number="21" hits="8" branch="false"/>
+						<line number="22" hits="8" branch="false"/>
+						<line number="23" hits="8" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="62" hits="6" branch="false"/>
+						<line number="63" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="65" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="66" hits="6" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="75" hits="11" branch="false"/>
+						<line number="76" hits="11" branch="false"/>
+						<line number="77" hits="11" branch="false"/>
+						<line number="83" hits="12" branch="false"/>
+						<line number="84" hits="12" branch="false"/>
+						<line number="85" hits="12" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="87" hits="18" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="91" hits="5" branch="false"/>
+						<line number="93" hits="7" branch="false"/>
+						<line number="94" hits="7" branch="false"/>
+						<line number="101" hits="3" branch="false"/>
+						<line number="103" hits="9" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="105" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="106" hits="3" branch="false"/>
+						<line number="109" hits="3" branch="false"/>
+						<line number="114" hits="3" branch="false"/>
+						<line number="118" hits="3" branch="false"/>
+						<line number="119" hits="3" branch="false"/>
+						<line number="120" hits="3" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="121" hits="3" branch="false"/>
+						<line number="123" hits="3" branch="false"/>
+						<line number="124" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="126" hits="0" branch="false"/>
+						<line number="127" hits="0" branch="false"/>
+						<line number="128" hits="0" branch="false"/>
+						<line number="130" hits="0" branch="false"/>
+						<line number="131" hits="3" branch="false"/>
+						<line number="132" hits="3" branch="false"/>
+						<line number="136" hits="35" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="138" hits="23" branch="false"/>
+						<line number="140" hits="12" branch="false"/>
+						<line number="144" hits="0" branch="false"/>
+						<line number="145" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="147" hits="0" branch="false"/>
+						<line number="148" hits="0" branch="false"/>
+						<line number="149" hits="0" branch="false"/>
+						<line number="150" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="151" hits="0" branch="false"/>
+						<line number="152" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="154" hits="0" branch="false"/>
+						<line number="155" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="157" hits="0" branch="false"/>
+						<line number="163" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.isima.inject.annotations" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+			<classes>
+				<class name="org.isima.inject.annotations.ImplementedBy" filename="org/isima/inject/annotations/ImplementedBy.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.isima.inject.annotations.Inject" filename="org/isima/inject/annotations/Inject.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.isima.inject.annotations.InjectedValue" filename="org/isima/inject/annotations/InjectedValue.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.isima.inject.annotations.Logger1" filename="org/isima/inject/annotations/Logger1.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.isima.inject.annotations.Logger2" filename="org/isima/inject/annotations/Logger2.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.isima.inject.annotations.Logger3" filename="org/isima/inject/annotations/Logger3.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.isima.inject.annotations.NotNull" filename="org/isima/inject/annotations/NotNull.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.isima.inject.annotations.Singleton" filename="org/isima/inject/annotations/Singleton.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.isima.inject.bind" line-rate="0.7058823529411765" branch-rate="0.75" complexity="1.5">
+			<classes>
+				<class name="org.isima.inject.bind.AbstractBinding" filename="org/isima/inject/bind/AbstractBinding.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="9" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDestinationClass" signature="()Ljava/lang/Class;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="31" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="getValue" signature="()Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="36" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setDestination" signature="(Ljava/lang/Class;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="20" hits="4" branch="false"/>
+								<line number="21" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="setValue" signature="(Ljava/lang/Object;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="26" hits="1" branch="false"/>
+								<line number="27" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="9" branch="false"/>
+						<line number="20" hits="4" branch="false"/>
+						<line number="21" hits="4" branch="false"/>
+						<line number="26" hits="1" branch="false"/>
+						<line number="27" hits="1" branch="false"/>
+						<line number="31" hits="10" branch="false"/>
+						<line number="36" hits="11" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.isima.inject.bind.AnnotatedWithBinding" filename="org/isima/inject/bind/AnnotatedWithBinding.java" line-rate="0.9333333333333333" branch-rate="1.0" complexity="1.8">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="16" hits="5" branch="false"/>
+								<line number="17" hits="5" branch="false"/>
+								<line number="18" hits="5" branch="false"/>
+								<line number="19" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="addAnnotation" signature="(Ljava/lang/Class;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="25" hits="1" branch="false"/>
+								<line number="26" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="annotationsEqualTo" signature="([Ljava/lang/annotation/Annotation;)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="38" hits="20" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="40" hits="15" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="41" hits="9" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="44" hits="3" branch="false"/>
+								<line number="45" hits="3" branch="false"/>
+								<line number="51" hits="5" branch="false"/>
+								<line number="53" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAnnotations" signature="()Ljava/util/List;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="33" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDestinationClass" signature="()Ljava/lang/Class;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="29" hits="8" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="16" hits="5" branch="false"/>
+						<line number="17" hits="5" branch="false"/>
+						<line number="18" hits="5" branch="false"/>
+						<line number="19" hits="5" branch="false"/>
+						<line number="25" hits="1" branch="false"/>
+						<line number="26" hits="1" branch="false"/>
+						<line number="29" hits="8" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="38" hits="20" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="40" hits="15" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="41" hits="9" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="44" hits="3" branch="false"/>
+						<line number="45" hits="3" branch="false"/>
+						<line number="51" hits="5" branch="false"/>
+						<line number="53" hits="5" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.isima.inject.bind.ImplementedByBinding" filename="org/isima/inject/bind/ImplementedByBinding.java" line-rate="0.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="4" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="4" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.isima.inject.bind.SingletonBinding" filename="org/isima/inject/bind/SingletonBinding.java" line-rate="0.0" branch-rate="0.0" complexity="3.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="3" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getInstance" signature="()Ljava/lang/Object;" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="9" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="10" hits="0" branch="false"/>
+								<line number="11" hits="0" branch="false"/>
+								<line number="12" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="0" branch="false"/>
+						<line number="9" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="10" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+						<line number="12" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.isima.inject.bind.ToBinding" filename="org/isima/inject/bind/ToBinding.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="6" hits="4" branch="false"/>
+								<line number="7" hits="4" branch="false"/>
+								<line number="8" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="6" hits="4" branch="false"/>
+						<line number="7" hits="4" branch="false"/>
+						<line number="8" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.isima.inject.bind.ValueBinding" filename="org/isima/inject/bind/ValueBinding.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Object;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="7" hits="0" branch="false"/>
+								<line number="8" hits="0" branch="false"/>
+								<line number="9" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="0" branch="false"/>
+						<line number="8" hits="0" branch="false"/>
+						<line number="9" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.isima.inject.log" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="org.isima.inject.log.DelegateIsiLogger" filename="org/isima/inject/log/DelegateIsiLogger.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="5" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="5" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.isima.inject.log.FileIsiLogger" filename="org/isima/inject/log/FileIsiLogger.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="5" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="5" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.isima.inject.log.IsiLogger" filename="org/isima/inject/log/IsiLogger.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.isima.inject.log.MultipleIsiLogger" filename="org/isima/inject/log/MultipleIsiLogger.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="10" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDefaultLogger" signature="()Lorg/isima/inject/log/IsiLogger;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="32" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLogger1" signature="()Lorg/isima/inject/log/IsiLogger;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="26" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLogger2" signature="()Lorg/isima/inject/log/IsiLogger;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="38" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="10" hits="3" branch="false"/>
+						<line number="26" hits="1" branch="false"/>
+						<line number="32" hits="1" branch="false"/>
+						<line number="38" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.isima.inject.log.SysOutIsiLogger" filename="org/isima/inject/log/SysOutIsiLogger.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="3" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
